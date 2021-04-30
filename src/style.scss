@@ -11,6 +11,25 @@ $secondary-light: #39b69f;
     max-width: 700px;
     margin: 0 auto;
   }
+
+  .menu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 99em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $secondary;
+    padding: 18px 13px;
+
+    div {
+      background-color: white;
+      height: 15%;
+    }
+  }
 }
 
 input[type="text"],
