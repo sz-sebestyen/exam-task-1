@@ -15,7 +15,9 @@
           <div></div>
         </div>
 
-        <h1 class="title text-3xl text-right font-serif font-bold mt-24">
+        <h1
+          class="title text-3xl text-right font-serif font-bold mt-24 sm:text-center"
+        >
           Jelentkezés
         </h1>
 
@@ -43,15 +45,15 @@
           placeholder="Telefonszám"
         />
 
-        <div>
-          <input type="checkbox" name="gdpr" id="gdpr" />
+        <div class="flex items-center gap-6 justify-start">
+          <input type="checkbox" name="gdpr" id="gdpr" class="" />
           <label for="gdpr"
             >Elolvastam és elfogadom az
             <a href="">Adatkezelési Tájékoztatót.</a></label
           >
         </div>
 
-        <button type="button">ELKÜLD</button>
+        <button type="button" class="send py-5 w-60 self-center">ELKÜLD</button>
       </div>
     </div>
   </body>

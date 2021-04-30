@@ -4,6 +4,13 @@ $secondary-light: #39b69f;
 
 .page {
   color: $secondary;
+  background-color: $primary;
+
+  &-inner {
+    min-height: 100vh;
+    max-width: 700px;
+    margin: 0 auto;
+  }
 }
 
 input[type="text"],
@@ -13,8 +20,20 @@ input[type="tel"] {
   @apply p-4;
   background-color: white;
   border: 1px solid gray;
+  max-width: 640px;
 
   &::placeholder {
     color: $secondary;
   }
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  transform-origin: center left;
+}
+
+button.send {
+  background-color: $secondary-light;
+  color: white;
+  border: 1px solid white;
 }
