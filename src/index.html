@@ -8,14 +8,16 @@
   </head>
   <body>
     <div class="page">
-      <div class="page-inner">
+      <div class="page-inner px-8 flex flex-col gap-6">
         <div class="menu">
           <div></div>
           <div></div>
           <div></div>
         </div>
 
-        <h1 class="title">Jelentkezés</h1>
+        <h1 class="title text-3xl text-right font-serif font-bold mt-24">
+          Jelentkezés
+        </h1>
 
         <input
           type="text"
@@ -41,11 +43,13 @@
           placeholder="Telefonszám"
         />
 
-        <input type="checkbox" name="gdpr" id="gdpr" />
-        <label for="gdpr"
-          >Elolvastam és elfogadom az
-          <a href="">Adatkezelési Tájékoztatót.</a></label
-        >
+        <div>
+          <input type="checkbox" name="gdpr" id="gdpr" />
+          <label for="gdpr"
+            >Elolvastam és elfogadom az
+            <a href="">Adatkezelési Tájékoztatót.</a></label
+          >
+        </div>
 
         <button type="button">ELKÜLD</button>
       </div>
