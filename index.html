@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
     <title>Jelentkezés</title>
+    <link href="main.css" rel="stylesheet" />
   </head>
   <body>
     <div class="page">
@@ -14,21 +15,12 @@
           <div></div>
           <div></div>
         </div>
-
         <h1
           class="title text-3xl text-right font-serif font-bold mt-24 sm:text-center"
         >
           Jelentkezés
         </h1>
-
-        <input
-          type="text"
-          name="name"
-          id="name"
-          class="name"
-          placeholder="Név"
-        />
-
+        <input name="name" id="name" class="name" placeholder="Név" />
         <input
           type="email"
           name="email"
@@ -36,7 +28,6 @@
           class="email"
           placeholder="Email cím"
         />
-
         <input
           type="tel"
           name="phone"
@@ -44,7 +35,6 @@
           class="phone"
           placeholder="Telefonszám"
         />
-
         <div
           class="flex items-center gap-6 justify-start sm:justify-center h-12"
         >
@@ -54,7 +44,6 @@
             <a href="" class="gdpr">Adatkezelési Tájékoztatót.</a></label
           >
         </div>
-
         <button type="button" class="send py-5 w-60 self-center">ELKÜLD</button>
       </div>
     </div>
