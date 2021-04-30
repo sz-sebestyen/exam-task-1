@@ -1,3 +1,16 @@
 $primary: #fab03b;
 $secondary: #248073;
 $secondary-light: #39b69f;
+
+.page {
+  color: $secondary;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  appearance: none;
+  @apply p-4;
+  background-color: white;
+  border: 1px solid gray;
+}
